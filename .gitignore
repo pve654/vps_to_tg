@@ -1,0 +1,35 @@
+# 编译输出
+/build/
+/bin/
+/obj/
+/*.exe
+/*.out
+/*.o
+/*.so
+/*.a
+/*.dll
+
+# CMake 自动生成文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# gRPC / protobuf 生成文件（可选，如果你不想提交生成文件）
+*.pb.h
+*.pb.cc
+*.grpc.pb.h
+*.grpc.pb.cc
+
+# 编辑器 / IDE 配置文件
+*.swp
+*.swo
+*.vscode/
+.idea/
+*.iml
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
