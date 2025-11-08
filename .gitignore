@@ -1,6 +1,7 @@
 # 编译输出
-/build/
-/bin/
+Server/build/
+Server/bin/
+Server/env/
 /obj/
 /*.exe
 /*.out
